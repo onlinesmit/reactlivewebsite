@@ -5,7 +5,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {MdOutlineContactPhone} from 'react-icons/md'
-import { useState } from 'react'
+import {useState} from 'react'
 
 const nav = () => {
   const[activeNav, setActiveNav] = useState('#')
