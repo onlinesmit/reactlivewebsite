@@ -37,7 +37,7 @@
 }
 
 .about__cards {
-    background: var(--color-bg-varient);
+    background: var(--color-bg);
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
