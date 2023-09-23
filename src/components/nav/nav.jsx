@@ -7,7 +7,7 @@ import {RiServiceLine} from 'react-icons/ri'
 import {MdOutlineContactPhone} from 'react-icons/md'
 import {useState} from 'react'
 
-const nav = () => {
+const Nav = () => {
   const[activeNav, setActiveNav] = useState('#')
   return (
    <nav>
@@ -21,4 +21,4 @@ const nav = () => {
   )
 }
 
-export default nav
+export default Nav

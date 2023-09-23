@@ -1,18 +1,21 @@
-import React from 'react'
-import './contact.css'
-import {MdOutlineMail} from 'react-icons/md'
-import {BsMessenger} from 'react-icons/bs'
-import {BsWhatsapp} from 'react-icons/bs'
-import {useRef} from 'react';
-import emailjs from 'emailjs-com'
+import React, {useRef} from 'react';
+import './contact.css';
+import {MdOutlineMail} from 'react-icons/md';
+import {BsMessenger} from 'react-icons/bs';
+import {BsWhatsapp} from 'react-icons/bs';
+import emailjs from 'emailjs-com';
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_47kqgox', 'template_lcekf7f', form.current, 'xhquH6xxgTFFwMLBu')
-      
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
     e.target.reset()
   };
   return (
@@ -51,4 +54,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
