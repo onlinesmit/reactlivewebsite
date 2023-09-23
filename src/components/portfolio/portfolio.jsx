@@ -13,42 +13,42 @@ const data = [
   id: 1,
   image: IMG1,
   title: 'Crypto Currency Dashboard & Financial Visualization',
-  github: 'https://github.com',
+  github: 'https://github.com/onlinesmit',
   demo: 'https://cdn.dribbble.com/userupload/9967375/file/original-042ef809253f582746abf2da777f6679.jpg?resize=1200x900'
 },
 {
   id: 2,
   image: IMG2,
   title: 'Impactful Data Visualizations in Figma',
-  github: 'https://github.com',
+  github: 'https://github.com/onlinesmit',
   demo: 'https://cdn.dribbble.com/userupload/10142601/file/original-6c4da00fb1e2e8e45cdf6d20124277d3.jpg?resize=1200x900'
 },
 {
   id: 3,
   image: IMG3,
   title: 'data visualization and charts templates for Figma',
-  github: 'https://github.com',
+  github: 'https://github.com/onlinesmit',
   demo: 'https://cdn.dribbble.com/userupload/9631036/file/original-223cbf1d0e03434c17c99bb8b3667528.jpg?resize=1200x900'
 },
 {
   id: 4,
   image: IMG4,
   title: 'Data presentation and dashboard templates',
-  github: 'https://github.com',
+  github: 'https://github.com/onlinesmit',
   demo: 'https://cdn.dribbble.com/userupload/9967713/file/original-203311f73db79f8c627766a96c92d2b5.jpg?resize=1200x900'
 },
 {
   id: 5,
   image: IMG5,
   title: 'Global data visualization',
-  github: 'https://github.com',
+  github: 'https://github.com/onlinesmit',
   demo: 'https://cdn.dribbble.com/userupload/9631208/file/original-3660996893c469420f37a2022ad57d5e.jpg?resize=1200x900'
 },
 {
   id: 6,
   image: IMG6,
   title: 'mpactful Data Visualizations',
-  github: 'https://github.com',
+  github: 'https://github.com/onlinesmit',
   demo: 'https://cdn.dribbble.com/userupload/9454682/file/original-9f1683e03d34dd91ebb66790db48c39b.jpg?resize=1200x900'
 }
 ]
